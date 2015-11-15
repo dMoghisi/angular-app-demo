@@ -1,0 +1,86 @@
+[
+	{
+		"name": "Antonio Bandras",
+		"imageFull": "view1/images/antonio-bandras-full.jpg",
+		"imageThumbnail": "view1/images/antonio-bandras-thumbnail.jpg",
+		"age":55
+	},
+	{
+		"name": "Angelina Jolie",
+		"imageFull": "view1/images/angelina-jolie-full.jpg",
+		"imageThumbnail": "view1/images/angelina-jolie-thumbnail.jpg",
+		"age":40
+	},
+	{
+		"name": "Anne Hathaway",
+		"imageFull": "view1/images/anne-hathaway-full.jpg",
+		"imageThumbnail": "view1/images/anne-hathaway-thumbnail.jpg",
+		"age":33
+	},
+	{
+		"name": "Brad Pitt",
+		"imageFull": "view1/images/brad-pitt-full.jpg",
+		"imageThumbnail": "view1/images/brad-pitt-thumbnail.jpg",
+		"age":51
+	},
+	{
+		"name": "Clint Eastwood",
+		"imageFull": "view1/images/clint-eastwood-full.jpg",
+		"imageThumbnail": "view1/images/clint-eastwood-thumbnail.jpg",
+		"age":85
+	},
+	{
+		"name": "Darth Vader",
+		"imageFull": "view1/images/darth-vader-full.jpg",
+		"imageThumbnail": "view1/images/darth-vader-thumbnail.jpg",
+		"age":1000
+	},
+	{
+		"name": "Elton John",
+		"imageFull": "view1/images/elton-john-full.jpg",
+		"imageThumbnail": "view1/images/elton-john-thumbnail.jpg",
+		"age":68
+	},
+	{
+		"name": "Frank Underwood",
+		"imageFull": "view1/images/frank-underwood-full.jpg",
+		"imageThumbnail": "view1/images/frank-underwood-thumbnail.jpg",
+		"age":56
+	},
+	{
+		"name": "Fred Flintston",
+		"imageFull": "view1/images/fred-flintston-full.jpg",
+		"imageThumbnail": "view1/images/fred-flintston-thumbnail.jpg",
+		"age":2000
+	},
+	{
+		"name": "Gregory Peck",
+		"imageFull": "view1/images/gregory-peck-full.jpg",
+		"imageThumbnail": "view1/images/gregory-peck-thumbnail.jpg",
+		"age":87
+	},
+	{
+		"name": "Jack Lemon",
+		"imageFull": "view1/images/jack-lemon-full.jpg",
+		"imageThumbnail": "view1/images/jack-lemon-thumbnail.jpg",
+		"age":76
+	},
+	{
+		"name": "Kevin Spacey",
+		"imageFull": "view1/images/kevin-spacey-full.jpg",
+		"imageThumbnail": "view1/images/kevin-spacey-thumbnail.jpg",
+		"age":56
+	},
+	{
+		"name": "Meryl Streep",
+		"imageFull": "view1/images/meryl-streep-full.jpg",
+		"imageThumbnail": "view1/images/meryl-streep-thumbnail.jpg",
+		"age":66
+	},
+	{
+		"name": "Woody Allen",
+		"imageFull": "view1/images/woody-allen-full.jpg",
+		"imageThumbnail": "view1/images/woody-allen-thumbnail.jpg",
+		"age":79
+	}
+]
