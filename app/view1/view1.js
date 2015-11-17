@@ -1,27 +1,27 @@
 'use strict';
 
-var view1App = angular.module('myApp.view1', ['ngRoute']);
+angular.module('myApp.view1', ['ngRoute'])
 
-view1App.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {
-    templateUrl: 'view1/view1.html',
-    controller: 'View1Ctrl'
-  });
-}]);
+		.config(['$routeProvider', function($routeProvider) {
+			$routeProvider.when('/view1', {
+				templateUrl: 'view1/view1.html',
+				controller: 'View1Ctrl'
+			});
+		}])
 
-view1App.controller('View1Ctrl', ['$scope', '$http', function($scope, $http) {
-	$scope.showDetails = false;
-	$scope.employees = {};
-	$http.get('view1/employees.json').success(function(data){
-		$scope.employees = data;
-	});
-	$scope.order = 'name';
-	$scope.toggleDetails = function (employee) {
-		$scope.showDetails = !$scope.showDetails; 
-		alert("Name: " + employee.name +
-			  "\nPhone: " + employee.phone.areaCode+"-"+employee.phone.phoneNumber +
-			  "\nExt: " + employee.phone.ext +
-			  "\nAge: " + employee.age);
-	};
-  
-}]);
+		.controller('View1Ctrl', ['$scope', '$http', function($scope, $http) {
+			$scope.showDetails = false;
+            $scope.employees = {};
+            $http.get('view1/employees.json')
+                    .success(function(data){
+                        $scope.employees = data;
+                    });
+            $scope.order = 'name';
+            $scope.toggleDetails = function (employee) {
+                $scope.showDetails = !$scope.showDetails;
+                alert("Name: " + employee.name +
+                        "\nPhone: " + employee.phone.areaCode+"-"+employee.phone.phoneNumber +
+                        "\nExt: " + employee.phone.ext +
+                        "\nAge: " + employee.age);
+            };
+        }]);
