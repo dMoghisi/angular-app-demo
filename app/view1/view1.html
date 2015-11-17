@@ -1,23 +1,27 @@
 <h3>A simple responsive search box:</h3>
 <p>
-	<input ng-model="query" id="inputBox" placeHolder="example: John Smith" type="text">
+	<input type="text" ng-model="query" placeHolder="ex: John Smith">
 	by
-	<select ng-model="order" placeHolder="Select Order" >
+	<select ng-model="order" id="inputBox" >
 		<option value="name">Name-Assc</option>
 		<option value="-name">Name-Desc</option>
 		<option value="age">Age</option>
 	</select>
-	<table dir="ltr" border="1" align="center">
+	<table dir="ltr" align="center">
 		<thead id="headerRow">
 			<tr>
 				<th scope="col">Name</th>
 				<th scope="col">Image</th>
+				<th scope="col">Phone</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr ng-repeat="employee in employees | filter:query | orderBy:order | limitTo:10" class="showList" >
-				<td align="right" id="nameCol">{{employee.name}}</td>
-				<td align="left" id="imgCol"><img ng-src="{{employee.imageThumbnail}}"></td>
+			<tr ng-repeat="employee in employees | filter:query | orderBy:order | limitTo:10" 
+			    id="tableRow"
+			    ng-click="toggleDetails(employee)">
+				<td id="imgCol"><img ng-src="{{employee.imageThumbnail}}"></td>
+				<td id="nameCol">{{employee.name}}</td>
+				<td id="nameCol">{{employee.phone.areaCode}}-{{employee.phone.phoneNumber}}, Ext:{{employee.phone.ext}}</td>
 			</tr>
 		</tbody>
 	</table>

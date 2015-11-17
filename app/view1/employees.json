@@ -1,84 +1,154 @@
 [
 	{
 		"name": "Antonio Bandras",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1000
+			},
 		"imageFull": "view1/images/antonio-bandras-full.jpg",
 		"imageThumbnail": "view1/images/antonio-bandras-thumbnail.jpg",
 		"age":55
 	},
 	{
 		"name": "Angelina Jolie",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1001
+			},
 		"imageFull": "view1/images/angelina-jolie-full.jpg",
 		"imageThumbnail": "view1/images/angelina-jolie-thumbnail.jpg",
 		"age":40
 	},
 	{
 		"name": "Anne Hathaway",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1002
+			},
 		"imageFull": "view1/images/anne-hathaway-full.jpg",
 		"imageThumbnail": "view1/images/anne-hathaway-thumbnail.jpg",
 		"age":33
 	},
 	{
 		"name": "Brad Pitt",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1003
+			},
 		"imageFull": "view1/images/brad-pitt-full.jpg",
 		"imageThumbnail": "view1/images/brad-pitt-thumbnail.jpg",
 		"age":51
 	},
 	{
 		"name": "Clint Eastwood",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1004
+			},
 		"imageFull": "view1/images/clint-eastwood-full.jpg",
 		"imageThumbnail": "view1/images/clint-eastwood-thumbnail.jpg",
 		"age":85
 	},
 	{
 		"name": "Darth Vader",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1005
+			},
 		"imageFull": "view1/images/darth-vader-full.jpg",
 		"imageThumbnail": "view1/images/darth-vader-thumbnail.jpg",
 		"age":1000
 	},
 	{
 		"name": "Elton John",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1006
+			},
 		"imageFull": "view1/images/elton-john-full.jpg",
 		"imageThumbnail": "view1/images/elton-john-thumbnail.jpg",
 		"age":68
 	},
 	{
 		"name": "Frank Underwood",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1007
+			},
 		"imageFull": "view1/images/frank-underwood-full.jpg",
 		"imageThumbnail": "view1/images/frank-underwood-thumbnail.jpg",
 		"age":56
 	},
 	{
 		"name": "Fred Flintston",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1008
+			},
 		"imageFull": "view1/images/fred-flintston-full.jpg",
 		"imageThumbnail": "view1/images/fred-flintston-thumbnail.jpg",
 		"age":2000
 	},
 	{
 		"name": "Gregory Peck",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 456780,
+			"ext": 1009
+			},
 		"imageFull": "view1/images/gregory-peck-full.jpg",
 		"imageThumbnail": "view1/images/gregory-peck-thumbnail.jpg",
 		"age":87
 	},
 	{
 		"name": "Jack Lemon",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1010
+			},
 		"imageFull": "view1/images/jack-lemon-full.jpg",
 		"imageThumbnail": "view1/images/jack-lemon-thumbnail.jpg",
 		"age":76
 	},
 	{
 		"name": "Kevin Spacey",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1011
+			},
 		"imageFull": "view1/images/kevin-spacey-full.jpg",
 		"imageThumbnail": "view1/images/kevin-spacey-thumbnail.jpg",
 		"age":56
 	},
 	{
 		"name": "Meryl Streep",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1012
+			},
 		"imageFull": "view1/images/meryl-streep-full.jpg",
 		"imageThumbnail": "view1/images/meryl-streep-thumbnail.jpg",
 		"age":66
 	},
 	{
 		"name": "Woody Allen",
+		"phone": {
+			"areaCode": 123,
+			"phoneNumber": 4567890,
+			"ext": 1013
+			},
 		"imageFull": "view1/images/woody-allen-full.jpg",
 		"imageThumbnail": "view1/images/woody-allen-thumbnail.jpg",
 		"age":79

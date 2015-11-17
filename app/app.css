@@ -60,28 +60,39 @@ nav > ul > li > a:hover {
 }*/
 
 #headerRow {
-  background-color: DarkCyan;
-  color: LightGray;
+  background-color: #566D7E;
+  color: white;
   text-shadow: 1px 1px #333;
 }
 
-#nameCol {
-  background-color: white;
-  color: black;
+#tableRow {
+  background-color: #f3f3f3;  
   text-shadow: 1px 1px #ccc;
+}
+
+#tableRow:hover {
+  background-color: #f3f3f3;  
+  text-shadow: 1px 1px #ccc;
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888;
+}
+
+#nameCol {
+  color: black;
   padding: 5px;
+  border-radius: 5px;
 }
 
 #imgCol {
-  background-color: white;
-  text-shadow: 1px 1px #ccc;
   padding: 5px;
 }
 
+
+
 #inputBox {
-  border-color: green;
-  border: 2px;
   border-radius: 5px;
+  font-size: small;
 }
 
 
@@ -91,20 +102,20 @@ nav > ul > li > a:hover {
 body {
   margin: 0;
   padding: 20px;
-  background: #ccc;
+  background: white;
   text-align: center;
 }
  
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color: #555;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 .nav li {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
@@ -118,7 +129,9 @@ body {
 }
  
 .nav a:hover {
-  background-color: #005f5f;
+  background-color: #fff;
+  color: #555;
+  border-radius: 5px;
 }
  
 .nav a.active {
@@ -130,10 +143,9 @@ body {
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;
-    border-bottom: none;
     height: 50px;
     line-height: 50px;
-    font-size: 1.4em;
+    font-size: 1em;
   }
  
   /* Option 1 - Display Inline 
@@ -153,6 +165,6 @@ body {
     margin: 0 auto;
   }
   .nav {
-    background-color: #444;
+    background-color: #555;
   }
 }
