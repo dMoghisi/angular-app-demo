@@ -11,17 +11,16 @@ angular.module('myApp.view1', ['ngRoute'])
 
 		.controller('View1Ctrl', ['$scope', '$http', function($scope, $http) {
 			$scope.showDetails = false;
-            $scope.employees = {};
+            $scope.employees = [];
             $http.get('view1/employees.json')
                     .success(function(data){
                         $scope.employees = data;
                     });
-            $scope.order = 'name';
+            $scope.order = 'lastName';
             $scope.toggleDetails = function (employee) {
                 $scope.showDetails = !$scope.showDetails;
-                alert("Name: " + employee.name +
-                        "\nPhone: " + employee.phone.areaCode+"-"+employee.phone.phoneNumber +
-                        "\nExt: " + employee.phone.ext +
-                        "\nAge: " + employee.age);
+                alert("First Name: " + employee.firstName +
+                        "\nLast Name: " + employee.lastName +
+                        "\nPhone: " + employee.phone);
             };
         }]);

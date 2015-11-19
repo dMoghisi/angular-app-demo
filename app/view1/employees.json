@@ -1,156 +1,457 @@
 [
-	{
-		"name": "Antonio Bandras",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1000
-			},
-		"imageFull": "view1/images/antonio-bandras-full.jpg",
-		"imageThumbnail": "view1/images/antonio-bandras-thumbnail.jpg",
-		"age":55
-	},
-	{
-		"name": "Angelina Jolie",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1001
-			},
-		"imageFull": "view1/images/angelina-jolie-full.jpg",
-		"imageThumbnail": "view1/images/angelina-jolie-thumbnail.jpg",
-		"age":40
-	},
-	{
-		"name": "Anne Hathaway",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1002
-			},
-		"imageFull": "view1/images/anne-hathaway-full.jpg",
-		"imageThumbnail": "view1/images/anne-hathaway-thumbnail.jpg",
-		"age":33
-	},
-	{
-		"name": "Brad Pitt",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1003
-			},
-		"imageFull": "view1/images/brad-pitt-full.jpg",
-		"imageThumbnail": "view1/images/brad-pitt-thumbnail.jpg",
-		"age":51
-	},
-	{
-		"name": "Clint Eastwood",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1004
-			},
-		"imageFull": "view1/images/clint-eastwood-full.jpg",
-		"imageThumbnail": "view1/images/clint-eastwood-thumbnail.jpg",
-		"age":85
-	},
-	{
-		"name": "Darth Vader",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1005
-			},
-		"imageFull": "view1/images/darth-vader-full.jpg",
-		"imageThumbnail": "view1/images/darth-vader-thumbnail.jpg",
-		"age":1000
-	},
-	{
-		"name": "Elton John",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1006
-			},
-		"imageFull": "view1/images/elton-john-full.jpg",
-		"imageThumbnail": "view1/images/elton-john-thumbnail.jpg",
-		"age":68
-	},
-	{
-		"name": "Frank Underwood",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1007
-			},
-		"imageFull": "view1/images/frank-underwood-full.jpg",
-		"imageThumbnail": "view1/images/frank-underwood-thumbnail.jpg",
-		"age":56
-	},
-	{
-		"name": "Fred Flintston",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1008
-			},
-		"imageFull": "view1/images/fred-flintston-full.jpg",
-		"imageThumbnail": "view1/images/fred-flintston-thumbnail.jpg",
-		"age":2000
-	},
-	{
-		"name": "Gregory Peck",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 456780,
-			"ext": 1009
-			},
-		"imageFull": "view1/images/gregory-peck-full.jpg",
-		"imageThumbnail": "view1/images/gregory-peck-thumbnail.jpg",
-		"age":87
-	},
-	{
-		"name": "Jack Lemon",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1010
-			},
-		"imageFull": "view1/images/jack-lemon-full.jpg",
-		"imageThumbnail": "view1/images/jack-lemon-thumbnail.jpg",
-		"age":76
-	},
-	{
-		"name": "Kevin Spacey",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1011
-			},
-		"imageFull": "view1/images/kevin-spacey-full.jpg",
-		"imageThumbnail": "view1/images/kevin-spacey-thumbnail.jpg",
-		"age":56
-	},
-	{
-		"name": "Meryl Streep",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1012
-			},
-		"imageFull": "view1/images/meryl-streep-full.jpg",
-		"imageThumbnail": "view1/images/meryl-streep-thumbnail.jpg",
-		"age":66
-	},
-	{
-		"name": "Woody Allen",
-		"phone": {
-			"areaCode": 123,
-			"phoneNumber": 4567890,
-			"ext": 1013
-			},
-		"imageFull": "view1/images/woody-allen-full.jpg",
-		"imageThumbnail": "view1/images/woody-allen-thumbnail.jpg",
-		"age":79
-	}
+  {
+    "firstName":"Aaron",
+    "lastName":"Avon",
+    "phone":"(902) 493 3500,  ext: 2274"
+  },
+  {
+    "firstName":"Adam",
+    "lastName":"Hanley",
+    "phone":"(902) 493 3500,  ext: 2279"
+  },
+  {
+    "firstName":"Alan",
+    "lastName":"Howatt",
+    "phone":"(902) 493 3500,  ext: 2881"
+  },
+  {
+    "firstName":"Aly",
+    "lastName":"Abouelnour",
+    "phone":"(902) 493 3500,  ext: 2955"
+  },
+  {
+    "firstName":"Amaresh",
+    "lastName":"Gentyala",
+    "phone":"(902) 493 3500,  ext: 2831"
+  },
+  {
+    "firstName":"Anne",
+    "lastName":"Greeno",
+    "phone":"(902) 493 3500,  ext: 2059"
+  },
+  {
+    "firstName":"April",
+    "lastName":"Ashleigh",
+    "phone":"(902) 493 3500,  ext: 2916"
+  },
+  {
+    "firstName":"Arleigh",
+    "lastName":"Hillman",
+    "phone":"(902) 493 3500,  ext: 3285"
+  },
+  {
+    "firstName":"Atul",
+    "lastName":"Sood",
+    "phone":"(902) 493 3500,  ext: 3186"
+  },
+  {
+    "firstName":"Avneet",
+    "lastName":"Paul",
+    "phone":"(902) 493 3500,  ext: 2519"
+  },
+  {
+    "firstName":"Barb",
+    "lastName":"Field",
+    "phone":"(902) 493 3500,  ext: 3378"
+  },
+  {
+    "firstName":"Bob",
+    "lastName":"Tabbiner",
+    "phone":"(902) 493 3500,  ext: 3199"
+  },
+  {
+    "firstName":"Brad",
+    "lastName":"Miller",
+    "phone":"(902) 493 3500,  ext: 2238"
+  },
+  {
+    "firstName":"Carl",
+    "lastName":"Shannon",
+    "phone":"(902) 493 3500,  ext: 2943"
+  },
+  {
+    "firstName":"Carole Anne",
+    "lastName":"Killorn",
+    "phone":"(902) 493 3500,  ext: 2826"
+  },
+  {
+    "firstName":"Christina",
+    "lastName":"Reid",
+    "phone":"(902) 493 3500,  ext: 8306"
+  },
+  {
+    "firstName":"Dan",
+    "lastName":"Ellenberger",
+    "phone":"(902) 493 3500,  ext: 2026"
+  },
+  {
+    "firstName":"Daniel",
+    "lastName":"Arseneault",
+    "phone":"(902) 493 3500,  ext: 8083"
+  },
+  {
+    "firstName":"David",
+    "lastName":"Carrigan",
+    "phone":"(902) 493 3500,  ext: 2844"
+  },
+  {
+    "firstName":"David",
+    "lastName":"Coady",
+    "phone":"(902) 493 3500,  ext: 2829"
+  },
+  {
+    "firstName":"David",
+    "lastName":"Greenfield",
+    "phone":"(902) 493 3500,  ext: 2009"
+  },
+  {
+    "firstName":"Divya",
+    "lastName":"Kalra",
+    "phone":"(902) 493 3500,  ext: 2834"
+  },
+  {
+    "firstName":"Donald",
+    "lastName":"Roache",
+    "phone":"(902) 493 3500,  ext: 8678"
+  },
+  {
+    "firstName":"Dora",
+    "lastName":"Jonah",
+    "phone":"(902) 493 3500,  ext: 3299"
+  },
+  {
+    "firstName":"Faran",
+    "lastName":"Khattana",
+    "phone":"(902) 493 3500,  ext: 2221"
+  },
+  {
+    "firstName":"Grant",
+    "lastName":"Sullivan",
+    "phone":"(902) 493 3500,  ext: 3460"
+  },
+  {
+    "firstName":"Greg",
+    "lastName":"Hall",
+    "phone":"(902) 493 3500,  ext: 3144"
+  },
+  {
+    "firstName":"Huma",
+    "lastName":"Naushad",
+    "phone":"(902) 493 3500,  ext: 2515"
+  },
+  {
+    "firstName":"Jack",
+    "lastName":"Lu",
+    "phone":"(902) 493 3500,  ext: 2407"
+  },
+  {
+    "firstName":"James",
+    "lastName":"Burry",
+    "phone":"(902) 493 3500,  ext: 2023"
+  },
+  {
+    "firstName":"James",
+    "lastName":"Slupsky",
+    "phone":"(902) 493 3500,  ext: 5603"
+  },
+  {
+    "firstName":"James",
+    "lastName":"Gray",
+    "phone":"(902) 493 3500,  ext: 2362"
+  },
+  {
+    "firstName":"Jason",
+    "lastName":"Forester",
+    "phone":"(902) 493 3500,  ext: 2893"
+  },
+  {
+    "firstName":"Janice",
+    "lastName":"Kean",
+    "phone":"(902) 493 3500,  ext: 8798"
+  },
+  {
+    "firstName":"Jay",
+    "lastName":"MacIsaac",
+    "phone":"(902) 493 3500,  ext: 3370"
+  },
+  {
+    "firstName":"Jialin",
+    "lastName":"Li",
+    "phone":"(902) 493 3500,  ext: 2966"
+  },
+  {
+    "firstName":"Jobin",
+    "lastName":"Basani",
+    "phone":"(902) 493 3500,  ext: 2905"
+  },
+  {
+    "firstName":"John",
+    "lastName":"Armstrong",
+    "phone":"(902) 493 3500,  ext: 2491"
+  },
+  {
+    "firstName":"Jordan",
+    "lastName":"Armstrong",
+    "phone":"(902) 493 3500,  ext: 2883"
+  },
+  {
+    "firstName":"Kakoli",
+    "lastName":"Majumder",
+    "phone":"(902) 493 3500,  ext: 2368"
+  },
+  {
+    "firstName":"Kevin",
+    "lastName":"Gorman",
+    "phone":"(902) 493 3500,  ext: 5139"
+  },
+  {
+    "firstName":"khurram",
+    "lastName":"Hameed",
+    "phone":"(902) 493 3500,  ext: 2375"
+  },
+  {
+    "firstName":"Lakshmi Sravanthi",
+    "lastName":"Yalavarthi",
+    "phone":"(902) 493 3500,  ext: 2509"
+  },
+  {
+    "firstName":"Liyu",
+    "lastName":"Wang",
+    "phone":"(902) 493 3500,  ext: 8791"
+  },
+  {
+    "firstName":"Manouchehr",
+    "lastName":"Habibian",
+    "phone":"(902) 493 3500,  ext: 2872"
+  },
+  {
+    "firstName":"Mark",
+    "lastName":"Szpakowski",
+    "phone":"(902) 493 3500,  ext: 2142"
+  },
+  {
+    "firstName":"Marsha",
+    "lastName":"Fraser",
+    "phone":"(902) 493 3500,  ext: 2292"
+  },
+  {
+    "firstName":"Martin",
+    "lastName":"Power",
+    "phone":"(902) 493 3500,  ext: 2886"
+  },
+  {
+    "firstName":"Matthew",
+    "lastName":"Latham",
+    "phone":"(902) 493 3500,  ext: 3466"
+  },
+  {
+    "firstName":"Mencio",
+    "lastName":"Vidal",
+    "phone":"(902) 493 3500,  ext: 2248"
+  },
+  {
+    "firstName":"Michael",
+    "lastName":"Brogan",
+    "phone":"(902) 493 3500,  ext: 3167"
+  },
+  {
+    "firstName":"Michael",
+    "lastName":"Arnoldi",
+    "phone":"(902) 493 3500,  ext: 2226"
+  },
+  {
+    "firstName":"Micheline",
+    "lastName":"Robichaud",
+    "phone":"(902) 493 3500,  ext: 3464"
+  },
+  {
+    "firstName":"Mykola",
+    "lastName":"Osipov",
+    "phone":"(902) 493 3500,  ext: 2947"
+  },
+  {
+    "firstName":"Neil",
+    "lastName":"Williams",
+    "phone":"(902) 493 3500,  ext: 8684"
+  },
+  {
+    "firstName":"Neville",
+    "lastName":"Ashleigh",
+    "phone":"(902) 493 3500,  ext: 2967"
+  },
+  {
+    "firstName":"Nikolai",
+    "lastName":"Neklioudov",
+    "phone":"(902) 493 3500,  ext: 2075"
+  },
+  {
+    "firstName":"Olalekan",
+    "lastName":"Tomori",
+    "phone":"(902) 493 3500,  ext: 5502"
+  },
+  {
+    "firstName":"Oleg",
+    "lastName":"Mazurenko",
+    "phone":"(902) 493 3500,  ext: 604"
+  },
+  {
+    "firstName":"Pamela",
+    "lastName":"Bower",
+    "phone":"(902) 493 3500,  ext: 3161"
+  },
+  {
+    "firstName":"Pamela",
+    "lastName":"Mills",
+    "phone":"(902) 493 3500,  ext: 2073"
+  },
+  {
+    "firstName":"Patrick",
+    "lastName":"Power",
+    "phone":"(902) 493 3500,  ext: 3134"
+  },
+  {
+    "firstName":"Paul",
+    "lastName":"Laurence",
+    "phone":"(902) 493 3500,  ext: 3323"
+  },
+  {
+    "firstName":"Paul",
+    "lastName":"Lomack",
+    "phone":"(902) 493 3500,  ext: 2245"
+  },
+  {
+    "firstName":"Paul",
+    "lastName":"Mackley",
+    "phone":"(902) 493 3500,  ext: 2704"
+  },
+  {
+    "firstName":"Paul",
+    "lastName":"Quinn",
+    "phone":"(902) 493 3500,  ext: 2482"
+  },
+  {
+    "firstName":"Paula",
+    "lastName":"Cain",
+    "phone":"(902) 493 3500,  ext: 5031"
+  },
+  {
+    "firstName":"Pradeep",
+    "lastName":"Gangreddy",
+    "phone":"(902) 493 3500,  ext: 2999"
+  },
+  {
+    "firstName":"Raanan",
+    "lastName":"Vissman",
+    "phone":"(902) 493 3500,  ext: 2554"
+  },
+  {
+    "firstName":"Raju",
+    "lastName":"Poojari",
+    "phone":"(902) 493 3500,  ext: 2276"
+  },
+  {
+    "firstName":"Raymond",
+    "lastName":"Mills",
+    "phone":"(902) 493 3500,  ext: 2870"
+  },
+  {
+    "firstName":"Richard",
+    "lastName":"Butterfield",
+    "phone":"(902) 493 3500,  ext: 2823"
+  },
+  {
+    "firstName":"Richard",
+    "lastName":"Pickering",
+    "phone":"(902) 493 3500,  ext: 8676"
+  },
+  {
+    "firstName":"Rippu",
+    "lastName":"Gupta",
+    "phone":"(902) 493 3500,  ext: 2513"
+  },
+  {
+    "firstName":"Robert",
+    "lastName":"Clark",
+    "phone":"(902) 493 3500,  ext: 4471"
+  },
+  {
+    "firstName":"Roberto",
+    "lastName":"Radice",
+    "phone":"(902) 493 3500,  ext: 8213"
+  },
+  {
+    "firstName":"Rod",
+    "lastName":"Oliveira",
+    "phone":"(902) 493 3500,  ext: 3149"
+  },
+  {
+    "firstName":"Sandra",
+    "lastName":"Morris",
+    "phone":"(902) 493 3500,  ext: 2613"
+  },
+  {
+    "firstName":"Sandy",
+    "lastName":"Gallant",
+    "phone":"(902) 493 3500,  ext: 8201"
+  },
+  {
+    "firstName":"Sarah",
+    "lastName":"Armstrong",
+    "phone":"(902) 493 3500,  ext: 2278"
+  },
+  {
+    "firstName":"Shawn",
+    "lastName":"Zhou",
+    "phone":"(902) 493 3500,  ext: 2508"
+  },
+  {
+    "firstName":"Stephanie",
+    "lastName":"Lewis",
+    "phone":"(902) 493 3500,  ext: 2847"
+  },
+  {
+    "firstName":"Stephen",
+    "lastName":"Martin",
+    "phone":"(902) 493 3500,  ext: 8796"
+  },
+  {
+    "firstName":"Steven",
+    "lastName":"Hansen",
+    "phone":"(902) 493 3500,  ext: 2105"
+  },
+  {
+    "firstName":"Steven",
+    "lastName":"Mackay",
+    "phone":"(902) 493 3500,  ext: 2941"
+  },
+  {
+    "firstName":"Timothy",
+    "lastName":"Pratt",
+    "phone":"(902) 493 3500,  ext: 2337"
+  },
+  {
+    "firstName":"Tom",
+    "lastName":"MacLeod",
+    "phone":"(902) 493 3500,  ext: 2480"
+  },
+  {
+    "firstName":"Vikram",
+    "lastName":"Singh",
+    "phone":"(902) 493 3500,  ext: 2235"
+  },
+  {
+    "firstName":"Vikram",
+    "lastName":"Subramaniam",
+    "phone":"(902) 493 3500,  ext: 2336"
+  },
+  {
+    "firstName":"Walter",
+    "lastName":"Roy",
+    "phone":"(902) 493 3500,  ext: 5596"
+  },
+  {
+    "firstName":"Wanda",
+    "lastName":"Hogg",
+    "phone":"(902) 493 3500,  ext: 2115"
+  }
 ]
