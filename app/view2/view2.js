@@ -12,16 +12,26 @@ validationApp.config(['$routeProvider', function($routeProvider) {
     }]);
 
 // create angular controller
-validationApp.controller('mainController', function($scope) {
+validationApp.controller('View2Ctrl', function($scope) {
+
+    var originalUser = angular.copy($scope.user);
 
     // function to submit the form after all validation has occurred
     $scope.submitForm = function() {
 
         // check to make sure the form is completely valid
         if ($scope.userForm.$valid) {
-            alert('our form is amazing');
+            alert('Placeholder...');
         }
 
     };
 
+    $scope.resetForm = function() {
+        $scope.user = angular.copy(originalUser);
+        $scope.userForm.$setPristine();
+    }
+
+    $scope.isUserChanged = function() {
+        return !angular.equals($scope.user, originalUser);
+    }
 });
