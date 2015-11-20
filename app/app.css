@@ -70,7 +70,18 @@
     text-decoration: none;
     text-shadow: 1px 1px LightGray;
 }
- 
+
+ul.view1 .view1,
+ul.view2 .view2,
+ul.view3 .view3,
+ul.view4 .view4,
+ul.view5 .view5 {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px LightGray;
+}
+
 @media screen and (min-width: 600px) {
   .nav li {
     width: 120px;

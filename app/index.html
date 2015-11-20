@@ -18,12 +18,12 @@
 <body>
   <header>
     <div class="nav">
-      <ul>
-        <li><a href="#/view1">Data Binding</a></li>
-        <li><a href="#/view2">Form Validation</a></li>
-        <li><a href="#/view3">View 3</a></li>
-        <li><a href="#/view4">View 4</a></li>
-        <li><a href="#/view5">View 5</a></li>
+      <ul class="{{active}}">
+        <li><a class="view1" ng-click="active='view1'" href="#/view1">Data Binding</a></li>
+        <li><a class="view2" ng-click="active='view2'" href="#/view2">Form Validation</a></li>
+        <li><a class="view3" ng-click="active='view3'" href="#/view3">View 3</a></li>
+        <li><a class="view4" ng-click="active='view4'" href="#/view4">View 4</a></li>
+        <li><a class="view5" ng-click="active='view5'" href="#/view5">View 5</a></li>
       </ul>
     </div>
   </header>
