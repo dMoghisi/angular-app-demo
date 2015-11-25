@@ -1,1 +1,33 @@
-<h3>PlaceHolder for view 5</h3>
+<div>
+    <div>
+        <header class="ui-widget-header">
+
+        </header>
+    </div>
+    <div ng-app="myApp.view5">
+        <div ng-controller="View5Ctrl as vm">
+            <md-input-container class="layout-align-center">
+                <div class="row">
+                    <div align="center">
+                        <label>A simple Date Picker:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div align="center">
+                        <input type="text" placeHolder="Click here!" class="form-control"
+                               uib-datepicker-popup="mediumDate"
+                               is-open="vm.valuationDatePickerIsOpen"
+                               ng-click="vm.valuationDatePickerOpen()"
+                               ng-model="vm.valuationDate" />
+                        <span class="" ng-show="false">
+                            <button type="button" class="mce-btn md-button"
+                                    ng-click="vm.validationDatePickerOpen()">
+                                <i class=""></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </md-input-container>
+        </div>
+    </div
+</div>

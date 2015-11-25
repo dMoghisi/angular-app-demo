@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view5', [ 'ngRoute'])
+angular.module('myApp.view5', ['ngRoute','ngMaterial','ngMessages', 'ui.bootstrap'])
 
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/view5', {
@@ -9,6 +9,21 @@ angular.module('myApp.view5', [ 'ngRoute'])
         });
     }])
 
-    .controller('View5Ctrl', [function() {
+    .controller('View5Ctrl', ['$scope', function($scope) {
 
+        var vm = this;
+
+        vm.valuationDate = new Date();
+        vm.valuationDatePickerIsOpen = false;
+
+        vm.valuationDatePickerOpen = function () {
+
+            this.valuationDatePickerIsOpen = true;
+        };
+
+        $scope.open = function($event) {
+            $event.preventDefault();
+            $event.stopPropagation();
+            $scope.opened = true;
+        }
     }]);
